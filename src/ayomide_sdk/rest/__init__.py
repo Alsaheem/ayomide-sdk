@@ -7,13 +7,13 @@ class Client(object):
     """
     A client class for accessing the Lord Of The Ring API.
     Example
-    client = Client(version="v2", api_key="API-KEY") version is 
-    # v2 by default
+    client = Client(version="v2", api_key="API-KEY")
+    # version v2 by default
     client.quote.get()
     client.movie.get()
     """
 
-    def __init__(self, api_key="v2", version=None):
+    def __init__(self, api_key=None, version="v2"):
         base_url = BASE_URL_V1 if version.lower() == "v1" else BASE_URL_V2
         if api_key is None:
             raise Exception("Api key is required")

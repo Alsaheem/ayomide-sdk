@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ayomide-sdk
-Version: 0.0.6
+Version: 0.0.7
 Summary: This is a simple Python library to
 Home-page: https://github.com/alsaheem/ayomide-sdk
 Author: Ayomide Adebisi
@@ -21,7 +21,15 @@ This is a simple library to facilitate the usage of the The Lord of the rings AP
 
 Register on https://the-one-api.dev/ to get your API token used to authenticate your requests
 
+## Installing the package from pypi
 
+```
+# create a virtual environment
+>>> python3 -m venv venv
+>>> pip install ayomide-sdk==0.0.7
+```
+
+## Installing the sdk client
 ```
 >>> from ayomide_sdk.rest import Client
 >>> client = Client(version="v2", api_key="API-KEY")
