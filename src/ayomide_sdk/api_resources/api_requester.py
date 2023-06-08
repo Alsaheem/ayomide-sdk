@@ -43,9 +43,6 @@ class ApiRequester:
                 endpoint,
                 headers=self.headers,
             )
-        print(endpoint)
-        print(self.params)
-        print(self.filters)
         return response
 
     def post():

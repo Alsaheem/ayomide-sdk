@@ -34,7 +34,7 @@ the client class requires 2 parameters
 ```
 # create a virtual environment
 >>> python3 -m venv venv
->>> pip install ayomide-sdk==0.0.6
+>>> pip install ayomide-sdk==0.0.8
 ```
 
 ## Here are various ways which the client can be initialised to use the sdk

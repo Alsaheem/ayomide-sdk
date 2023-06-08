@@ -8,7 +8,7 @@ class Client(object):
     A client class for accessing the Lord Of The Ring API.
     Example
     client = Client(version="v2", api_key="API-KEY")
-    # version v2 by default
+    ### version v2 by default
     client.quote.get()
     client.movie.get()
     """

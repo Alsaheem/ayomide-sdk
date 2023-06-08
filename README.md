@@ -11,7 +11,7 @@ Register on https://the-one-api.dev/ to get your API token used to authenticate 
 ```
 # create a virtual environment
 >>> python3 -m venv venv
->>> pip install ayomide-sdk==0.0.7
+>>> pip install ayomide-sdk==0.0.8
 ```
 
 ## Installing the sdk client
