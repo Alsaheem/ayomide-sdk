@@ -94,27 +94,13 @@ Python 3.9
 Python 3.10
 
 ## Installation
-You can clone the project down from github
-```
-git clone git@github.com:bobby-didcoding/hedera-mirror-sdk.git
-```
 
-hedera_mirror_sdk is available on PyPI: 
+ayomide_sdk is available on PyPI: 
 ```
-python -m pip install hedera_mirror_sdk
+python -m pip install ayomide_sdk
 ```
 
-## More about Hedera
-Hedera Mirror Nodes store the history of transactions that occurred on mainnet, testnet, and previewnet. Each transaction generates a record that is stored in a record file. The transaction contents can be accessed by the mirror node Rest APIs
+## More about ayomide_sdk
 
-Read more <a href="https://docs.hedera.com/guides/docs/mirror-node-api/rest-api" target="_blank">here</a>
 
-from ayomide_sdk.rest import Client
-client = Client(version="v2", api_key="ltLgmBHmMRdwJkE0zWFm")
-client.quote.get()
-client.movie.get()
-client.movie.get(params={'id':"5cd95395de30eff6ebccde57"})
-
-https://the-one-api.dev/v2/movie/5cd95395de30eff6ebccde5d/quote?
-
-client.movie.get(params={'id':'5cd95395de30eff6ebccde5d','subquery':'quote'},filters={"limit":"100","page":"2"})
+Read more <a href="https://github.com/Alsaheem/ayomide-sdk" target="_blank">here</a>
