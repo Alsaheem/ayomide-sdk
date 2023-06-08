@@ -14,7 +14,7 @@ Register on https://the-one-api.dev/ to get your API token used to authenticate 
 >>> pip install ayomide-sdk==0.0.6
 ```
 
-
+## Installing the sdk client
 ```
 >>> from ayomide_sdk.rest import Client
 >>> client = Client(version="v2", api_key="API-KEY")
