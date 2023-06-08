@@ -6,6 +6,14 @@ This is a simple library to facilitate the usage of the The Lord of the rings AP
 
 Register on https://the-one-api.dev/ to get your API token used to authenticate your requests
 
+## Installing the package from pypi
+
+```
+# create a virtual environment
+>>> python3 -m venv venv
+>>> pip install ayomide-sdk==0.0.6
+```
+
 
 ```
 >>> from ayomide_sdk.rest import Client
@@ -101,6 +109,5 @@ python -m pip install ayomide_sdk
 ```
 
 ## More about ayomide_sdk
-
 
 Read more <a href="https://github.com/Alsaheem/ayomide-sdk" target="_blank">here</a>

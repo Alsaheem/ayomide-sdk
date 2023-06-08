@@ -18,5 +18,6 @@ src/ayomide_sdk/api_resources/helpers.py
 src/ayomide_sdk/rest/__init__.py
 src/ayomide_sdk/rest/movie/__init__.py
 src/ayomide_sdk/rest/quote/__init__.py
+test/test_client.py
 test/test_movie.py
 test/test_quote.py
